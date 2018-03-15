@@ -1,9 +1,9 @@
 Package:
  sources:
   - git:
-     src: 'https://github.com/open-power-host-os/linux.git'
-     branch: 'hostos-devel'
-     commit_id: '33f711f9fa30a18b8c9eeeebe80692e196078cf5'
+     src: 'https://github.com/liyi-ibm/linux.git'
+     branch: 'hostos-4.14.y'
+     commit_id: '6e4548ea58e6a5ed2dd3a417d991742e2dec0246'
  version:
   file: 'Makefile'
   regex: 'VERSION.*([\d.]+)\nPATCHLEVEL\s*=\s*(?P<patch>[\d.]*)\nSUBLEVEL\s*=\s*(?(patch)([\d.]*))\nEXTRAVERSION\s*=\s*([-\w.]*)\n'
