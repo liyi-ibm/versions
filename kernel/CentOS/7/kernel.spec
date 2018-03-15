@@ -314,7 +314,7 @@ Name: kernel%{?variant}
 Group: System Environment/Kernel
 License: GPLv2
 URL: http://www.kernel.org/
-Version: 4.15.0
+Version: 4.14.24
 Release: 5%{?prerelease}%{?extraver}%{gitcommittag}%{?dist}
 # DO NOT CHANGE THE 'ExclusiveArch' LINE TO TEMPORARILY EXCLUDE AN ARCHITECTURE BUILD.
 # SET %%nobuildarches (ABOVE) INSTEAD
