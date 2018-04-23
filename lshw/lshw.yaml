@@ -1,0 +1,6 @@
+Package:
+ sources:
+  - git:
+     src: 'https://github.com/lyonel/lshw.git'
+     branch: 'master'
+     commit_id: '20cda77239e8604e798b87a0441e694edb0214d1' # 2018-03-10
