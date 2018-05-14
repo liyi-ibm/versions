@@ -3,8 +3,8 @@
 
 Summary: HardWare LiSter
 Name: lshw
-Version: B.02.18.77
-Release: 2
+Version: B.02.18.79
+Release: 1
 #Source: http://www.ezix.org/software/files/%{name}-%{version}.tar.gz
 URL: http://lshw.ezix.org/
 License: GPL
@@ -112,6 +112,9 @@ http://lshw.ezix.org/
 %endif
 
 %changelog
+* Mon May 14 2018 Yi Li <shliyi@cn.ibm.com> B.02.18.79-1
+- Hardcode version number, disable GUI.
+
 * Tue May  1 2007 Lyonel Vincent <lyonel@ezix.org> B.02.10-2
 - spec file cleanup
 
