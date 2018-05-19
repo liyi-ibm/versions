@@ -1,6 +1,7 @@
 Name:		opal-prd
 Version:	6.0
-Release:	1%{?dist}
+#Release:	1%{?dist}
+Release:	1
 Summary:	OPAL Processor Recovery Diagnostics Daemon
 
 Group:		System Environment/Daemons
