@@ -2,5 +2,5 @@ Package:
  sources:
   - git:
      src: 'https://github.com/open-power/skiboot.git'
-     branch: 'master'
-     commit_id: '7519644443707e972fed836853dd92031efcb858' # v6.0 tag
+     branch: 'skiboot-6.0.x'
+     commit_id: 'c55a54bbf38b6b3144105885e173ae7b6afab091' # v6.0.4 tag

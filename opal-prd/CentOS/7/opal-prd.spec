@@ -1,5 +1,5 @@
 Name:		opal-prd
-Version:	6.0
+Version:	6.0.4
 #Release:	1%{?dist}
 Release:	1
 Summary:	OPAL Processor Recovery Diagnostics Daemon
@@ -110,6 +110,9 @@ fi
 %{_datadir}/qemu/
 
 %changelog
+* Mon Jun 21 2018 Yi Li <liyiadam@gmail.com> - 6.0.4
+- Version update
+
 * Mon May 14 2018 Yi Li <liyiadam@gmail.com> - 6.0
 - Version update
 
