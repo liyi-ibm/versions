@@ -461,7 +461,7 @@ Source110: config-arm64
 # This file is intentionally left empty in the stock kernel. Its a nicety
 # added for those wanting to do custom rebuilds with altered config opts.
 Source1000: config-local
-Source1001: hostos-minimal.config
+Source1001: hostos-minimal_withdebug.config
 
 # Sources for kernel-tools
 Source2000: cpupower.service
