@@ -3,7 +3,7 @@ Package:
   - git:
      src: 'https://github.com/liyi-ibm/linux.git'
      branch: 'hostos-4.14.y'
-     commit_id: 'b79f44db6832ba86237ba46e72aaa90fdc3483c3'
+     commit_id: 'a6d3d0b1fa3a18de0ca7c12c7d0ce91a8f3b49bd' # v4.14.68
  version:
   file: 'Makefile'
   regex: 'VERSION.*([\d.]+)\nPATCHLEVEL\s*=\s*(?P<patch>[\d.]*)\nSUBLEVEL\s*=\s*(?(patch)([\d.]*))\nEXTRAVERSION\s*=\s*([-\w.]*)\n'
